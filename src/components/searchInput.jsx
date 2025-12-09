@@ -1,5 +1,5 @@
 import React from 'react';
-import './SearchInput.css';
+import './searchInput.css';
 
 const SearchInput = ({ value, onChange }) => {
   return (
