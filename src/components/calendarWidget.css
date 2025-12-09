@@ -1,0 +1,56 @@
+.calendar-widget {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+.calendar-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+  color: var(--primary-color);
+}
+
+.calendar-grid {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr); /* 7 días de la semana */
+  gap: 5px;
+  text-align: center;
+  font-size: 0.9rem;
+}
+
+.day-name {
+  font-weight: bold;
+  color: #9ca3af;
+  margin-bottom: 5px;
+}
+
+.day-number {
+  padding: 8px;
+  cursor: pointer;
+  border-radius: 50%;
+  transition: background 0.2s;
+}
+
+.day-number:hover {
+  background-color: #e0f2fe;
+}
+
+.day-number.active {
+  background-color: var(--primary-color);
+  color: white;
+}
+
+.calendar-btn {
+  width: 100%;
+  margin-top: 15px;
+  padding: 10px;
+  background-color: var(--success);
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+}

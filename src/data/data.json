@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "nombre": "Ana García",
+    "edad": 29,
+    "motivo": "Consulta Nutricional",
+    "fecha": "2023-10-25"
+  },
+  {
+    "id": 2,
+    "nombre": "Carlos López",
+    "edad": 45,
+    "motivo": "Revisión Cardiológica",
+    "fecha": "2023-10-26"
+  },
+  {
+    "id": 3,
+    "nombre": "María Rodríguez",
+    "edad": 34,
+    "motivo": "Terapia Psicológica",
+    "fecha": "2023-10-27"
+  },
+  {
+    "id": 4,
+    "nombre": "Luis Martínez",
+    "edad": 50,
+    "motivo": "Control Diabetes",
+    "fecha": "2023-10-28"
+  }
+]

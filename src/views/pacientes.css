@@ -1,0 +1,36 @@
+.pacientes-page {
+  padding: 20px;
+}
+
+.pacientes-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.paciente-card {
+  background: white;
+  border: 1px solid #ddd;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  transition: transform 0.2s;
+  color: #222;
+  min-height: 140px;
+}
+
+.paciente-card:hover {
+  transform: translateY(-5px);
+}
+
+.paciente-btn {
+  display: inline-block;
+  margin-top: 10px;
+  text-decoration: none;
+  background-color: #3498db;
+  color: white;
+  padding: 8px 15px;
+  border-radius: 4px;
+  font-size: 0.9rem;
+}
