@@ -1,0 +1,10 @@
+{
+  "id": 1,
+  "nombre": "Dr. Mario Hernández",
+  "cedula": "87654321",
+  "institucion": "Universidad Nacional Autónoma de México (UNAM)",
+  "domicilio": "Av. Reforma 222, Consultorio 405, CDMX",
+  "telefono": "55 1234 5678",
+  "especialidad": "Medicina Interna",
+  "email": "mario.hj01@gmail.com"
+}

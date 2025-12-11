@@ -9,7 +9,6 @@ const navbar = () => {
         <h2 className="navbar__logo">SaludManager</h2>
         
         <ul className="navbar__menu">
-          {/* Elemento del menú */}
           <li className="navbar__item">
             <Link to="/" className="navbar__link">Dashboard</Link>
           </li>
