@@ -1,8 +1,8 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import './navbar.css';
 
-const navbar = () => {
+const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   const toggleMenu = () => {
@@ -31,7 +31,7 @@ const navbar = () => {
           </li>
           
           <li className="navbar__item">
-            <Link to="/perfil" className="navbar__link" onClick={closeMenu}>Mi Perfil</Link>
+            <Link to="/profile" className="navbar__link" onClick={closeMenu}>Mi Perfil</Link>
           </li>
         </ul>
       </div>
@@ -39,4 +39,4 @@ const navbar = () => {
   );
 };
 
-export default navbar;
+export default Navbar;
